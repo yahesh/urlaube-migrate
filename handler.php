@@ -183,4 +183,4 @@
   }
 
   // register handler
-  Handlers::register(UrlaubeMigrateHandler::class, "run", ErrorHandler::REGEX, [GET, POST], ERROR);
+  Handlers::register(UrlaubeMigrateHandler::class, "run", UrlaubeMigrateHandler::REGEX, [GET, POST], ERROR);
